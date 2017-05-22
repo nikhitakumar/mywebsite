@@ -1,40 +1,44 @@
 <!DOCTYPE html>
-<title>Example</title>
-<style>
+<html>
+<head>
+  <title>Example</title>
+  <link rel="stylesheet" type="text/css" href="css/myCss.css">
+</head>
+<body>
 
-  
-  html, body {
-    margin: 0;
-    padding: 0;
-}
-  main {
-    margin-bottom: 200%;
-  }
-  .floating-menu {
-    font-family: sans-serif;
-    background: yellowgreen;
-    padding: 5px;
-    z-index: 100;
-    position: fixed;
-	top: 0px;
-    left: 0px;
-	width: 100vw;
-  }
-  .floating-menu a, 
-  .floating-menu h3 {
-    font-size: 0.9em;
-    display: block;
-    margin: 0 0.5em;
-    color: white;
-  }
-</style>
-<main>
-  <p>Scroll down and watch the menu remain fixed in the same position, as though it was floating.</p>
   <div class="floating-menu">
-    <h3>Floating Menu</h3>
-    <a href="/css/">CSS</a>
-    <a href="/html/">HTML</a>
-    <a href="/coldfusion/">ColdFusion</a>
-    <a href="/database/">Database</a>
+    <table align="center">
+      <tr>
+        <th><a href="#aboutSection">About Me</a></th>
+        <th><a href="#projectSection">Projects</a></th>
+        <th><a href="#contactSection">Contact Me</a></th>
+      </tr>
+
+
+
+
+    </table>
   </div>
-</main>
+<div class="about-head">
+  <a name="aboutSection"></a>
+<div style="margin-top: 30px; padding-top: 200px; padding-left: 100px">
+
+    <span class="author">Nikhta Kumar</span>
+    <h1 class="author-title">PRODUCT (UX) DESIGNER</h1>
+
+    <p class="author-description">I'm a passionate designer in Minneapolis, Minnesota that designs user experiences (UX)
+    and user interfaces (UI) for web and mobile apps. This website is a collection of things I've
+    designed in the past few years.</p>
+
+</div>
+</div>
+<div style="height: 500px; background-color: greenyellow; margin-top: 30px">
+  <a name="projectSection"></a>
+  kumar
+</div>
+  <div style="height: 500px; background-color: greenyellow; margin-top: 30px">
+    <a name="contactSection"></a>
+    kumar
+  </div>
+</body>
+</html>

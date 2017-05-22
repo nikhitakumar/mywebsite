@@ -1,0 +1,56 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+main {
+    margin-bottom: 200%;
+}
+.floating-menu {
+    font-family: sans-serif;
+    background: yellowgreen;
+    padding: 5px;
+    z-index: 100;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+}
+.floating-menu a,
+.floating-menu h3 {
+    font-size: 0.9em;
+    display: block;
+    margin: 0 0.5em;
+    color: white;
+}
+
+.author{
+    font-family: 'ProximaNova-Bold';
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+}
+
+.author-title{
+    font-family: 'ProximaNova-Thin';
+    font-size: 36px;
+    letter-spacing: 5px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+
+.author-description{
+    font-family: 'ProximaNova-Thin';
+    font-size: 18px;
+    letter-spacing: 1px;
+    width: 640px;
+    line-height: 24px;
+}
+
+.about-head{
+    width: 100%;
+    height: 700px;
+    color: #FFF;
+    background: transparent url('../images/about-image.jpg') 0 0 / cover no-repeat;
+
+}
